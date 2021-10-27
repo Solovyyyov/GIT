@@ -1,0 +1,12 @@
+li{
+    font-size: x-large;
+    color:blueviolet;
+    text-decoration: mediumblue;
+    display: flex;
+    align-items:flex-end;
+flex-direction:row;
+}
+h2{
+    color: orchid;
+    text-align: center;
+}

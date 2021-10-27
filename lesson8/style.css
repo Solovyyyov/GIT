@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+h1{
+    text-align: center;
+}
+/*img*/
+.text{
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+/*column*/
+.column{
+    display: flex;
+    justify-content: space-around;
+}
+.block{
+background-color: blue;
+margin: 10px;
+}
