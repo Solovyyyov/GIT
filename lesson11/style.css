@@ -1,0 +1,73 @@
+.flag{
+    height: 300px;
+    width: 600px;
+    border: 2px  blue solid;
+    margin: 0 auto;
+    position: relative;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+    top: 50px;
+    background-color: rgb(255, 0, 0);
+border-radius: 50%;
+}
+.tr{
+    width: 200px;
+    height: 300px;
+    left: 50px;
+    top: 100px;
+    border: 2px solid rgba(21, 255, 0, 0.637);
+    background-color: violet;
+    position: fixed;
+    border-radius: 45%;
+}
+.i{
+    width: 600px;
+    height: 600px;
+    background: rgb(121,9,109);
+    background: linear-gradient(90deg, rgba(121,9,109,1) 38%, rgba(0,36,3,1) 55%, rgba(0,212,255,1) 100%);
+border-radius: 45%;
+position: relative;
+margin: 0 auto;
+}
+.n{
+    width: 450px;
+    height: 450px;
+    left: 75px;
+    top: 75px;
+    border: 3px solid white;
+    position: absolute;
+    border-radius: 50%;
+}
+.s{
+    width: 300px;
+    height: 300px;
+    left: 75px;
+    top: 75px;
+    border: 3px solid white;
+    position: absolute;
+    border-radius: 50%; 
+}
+.t{
+    width: 20px;
+    height: 20px;
+    margin: 5px 280px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+.bear{
+        width: 600px;
+        height: 600px;
+       background-color: turquoise;
+    border-radius: 45%;
+    position: relative;
+    margin: 0 auto;
+    }
+    .j{
+        width: 100px;
+        height: 100px;
+        background-color: tomato;
+    }
