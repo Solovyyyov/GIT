@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(34, 31, 31);
+    width: 100%;
+    height: 100vh;
+    
+}
+.part{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+li::before{
+    content: "«";
+}
+li{
+    list-style-type: none;
+}
+a:hover{
+    color: coral;
+}
+.less{
+    width: 250px;
+    height: 200px;
+    border-radius: 47px;
+    background-color: rgb(39, 163, 163);
+    margin: 10;
+    text-align: center;
+    border: 1px solid
+    
+}
+h2{
+  
+    color: darkblue;
+    text-align: center;
+
+}
+.less:hover{
+    color: darkgreen;
+    box-shadow: 20px;
+
+}
+a{
+   
+}

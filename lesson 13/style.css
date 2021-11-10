@@ -1,0 +1,4 @@
+li:before{
+    content: "²";
+    list-style-type: none;
+}
