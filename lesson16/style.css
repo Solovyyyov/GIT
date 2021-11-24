@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(201, 31, 158);
+}
+nav{
+    background-color: rgb(13, 219, 116);
+    margin-top: 50px;
+}
+ul{
+    position: relative;
+}
+a{
+    color: rgb(241, 198, 24);
+    font-size: 25px;
+    text-decoration: none;
+    margin: 30px;
+    line-height: 60px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li ul{
+    display: none;
+}
+nav li:hover{
+    background-color: rgb(86, 86, 172);
+}
+ul li:hover>ul{
+    display: block;
+    background-color: rgb(23, 114, 167);
+    width: 120px;
+    position: absolute;
+    left: 330px;
+}
+ul li ul li:hover>ul{
+display: block;
+background-color: cornflowerblue;
+width: 150px;
+position: absolute;
+left: 660px;
+}
