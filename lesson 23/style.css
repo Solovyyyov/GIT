@@ -2,21 +2,23 @@ img{
   
     width: 131px;
     height: 72px;
-    
+    align-items: center;
     
 }
 .header{
 display: flex;
+
     width: 100%;
     height: 100px;
     
     
-    background: #16d8ce;
+    background: #ce640d;
     
 }
 .he1{
     background-color: rgb(165, 142, 59);
     justify-content: space-between;
+    
 }
 .container{
     display: grid;
@@ -34,7 +36,7 @@ display: flex;
     color: seashell;
 
 }
-h3{
+.he3>h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-style: normal;
 font-weight: 400;
@@ -43,16 +45,66 @@ line-height: 19px;
 letter-spacing: 0em;
 text-align: left;
 color: #393939;
-border-left: solid 1px chocolate;
+
 
 }
 .he2{
     justify-content: space-between;
-    border-left: solid 1px  #E2E2E2;
+    border-left: solid 1px  #000000;
     padding: 0px 20px;
+  
 }
 .he3{
     justify-content: space-between;
-    border-left: solid 1px  #E2E2E2;
+    border-left: solid 1px  #000000;
     padding: 0px 20px;
+    
+}
+.he4{
+    display: flex;
+    justify-content: space-between;
+    border-left: solid 1px  #000000;
+    padding: 0px 20px;
+   
+}
+
+.fa{
+width: 15px;
+height: 15px;
+padding: 5px;
+margin-top: 36px;
+}
+.he5{
+    display: flex;
+    justify-content: space-between;
+    border-left: solid 1px  #000000;
+    padding: 0px 20px;
+ width: 150px;
+ 
+}
+.he6{
+    display: flex;
+    justify-content: space-between;
+    border-left: solid 1px  #000000;
+    padding: 0px 20px;
+    width: 295px;
+    
+}
+.maist{
+    height: 55px;
+width: 240px;
+background: #EFF3F6;
+border-radius: 2px;
+margin-top: 20px;
+}
+.RED{
+    background: #DD4053;
+   align-items: end;
+   width: 55px;
+   height: 55px;
+   justify-content: space-around;
+}
+.he6>h3{
+    width: 145px;
+    height: 20px;
 }
