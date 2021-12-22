@@ -84,27 +84,31 @@ margin-top: 36px;
 }
 .he6{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     border-left: solid 1px  #000000;
     padding: 0px 20px;
-    width: 295px;
+    width: 225px;
+    height: 80px;
     
 }
-.maist{
-    height: 55px;
-width: 240px;
-background: #EFF3F6;
-border-radius: 2px;
-margin-top: 20px;
-}
+
 .RED{
     background: #DD4053;
    align-items: end;
    width: 55px;
    height: 55px;
-   justify-content: space-around;
+   display: flex;
+   justify-content: center;
 }
-.he6>h3{
+.form{
     width: 145px;
-    height: 20px;
+    height: 55px;
+    background-color: rgb(212, 202, 189);
+}
+.RED>i{
+   text-align: center;
+
+}
+input{
+    height: 55px;
 }
