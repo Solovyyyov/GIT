@@ -147,15 +147,15 @@ h2{
 .nav{
     grid-column: 1/2;
     grid-row: 1/2;
-    background-color: rgb(41, 189, 120);
-    height: 80px;
+    background-color: rgb(197, 204, 201);
+    height: 70px;
 }
 ul{
     position: relative;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: relative;
+ 
 }
 .nav ul li>a{
     font-family: Suisse Intl Trial;
@@ -195,4 +195,114 @@ ul li:hover>ul{
     line-height: 30px;
     color: rgb(255, 255, 255);
     border-bottom:  0,5px solid #000000;
+}
+.tubik{
+    height: 490px;
+width: 100%;
+background-image: url(./img/104276fb11cd5d5a5a2b9ed233bde285\ 1.svg);
+background-size: cover;
+border-radius: 0px;
+}
+
+.blk{
+
+
+padding: 100px 200px;
+  }
+
+
+.cost{
+    height: 45px;
+    width: 202px;
+  
+
+ 
+   border: 1px solid #FFFFFF;
+}
+.cost>h2{
+  color: #FFFFFF;
+  text-align: center;
+  font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.text{
+    height: 102px;
+    width: 725px;
+ 
+    
+}
+.text>h1{
+    font-family: Montserrat;
+font-size: 45px;
+font-style: normal;
+font-weight: 500;
+line-height: 55px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.nope{
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    
+    text-decoration-style: none ;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 2px;
+}
+.nope>a{
+color: #FFFFFF;
+text-decoration-style: none ;
+}
+
+.footer{
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    height: 260px;
+    background-image: url(./img/Mask\ Group.jpg);
+    background-size: cover;
+    display: flex;
+}
+.cart{
+    width: 154px;
+    height: 84px;
+}
+.tlpn{
+    width: 101px;
+    height: 17px;
+}
+.oppro{
+    width: 71px;
+    height: 17px;
+}
+.tupo{
+    width: 148px;
+    height: 17px;
+}
+.chi{
+    width: 152px;
+    height: 17px;
+}
+
+
+
+
+
+.pig{
+    display: flex;
+    justify-content: space-between;
+}
+.wo{
+    margin-left: 198px;
+}
+.wa{
+margin-left: 198px;
 }

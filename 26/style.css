@@ -1,0 +1,19 @@
+.pic{
+    width: 500px;
+    height: 200px;
+    background-color: chocolate;
+ 
+}
+img{
+ width: 10%;
+
+ align-items:baseline;
+
+}
+button{
+    width: 80px
+}
+h3{
+    align-items: center;
+    margin-top: 1px;
+}
